@@ -1,0 +1,152 @@
+body{
+    background-color: #778899;
+}
+h1{
+    text-align: center;
+    color: #191970;
+}
+h4{
+    text-align: right;
+}
+p{
+    margin-left: 20px;
+    text-indent: 10px;
+}
+a {
+    color: #006400 ;
+    text-decoration: none;
+}
+span.selected{
+  font-weight: bold;
+  text-decoration:underline
+}
+span.unline{
+    text-decoration:underline
+}
+
+.illustration{
+    height: 300px;
+    width: 100%;
+    border-bottom: 3px solid #191970
+}
+.illustration img{ 
+    width: 155px;
+    height: 250px;
+    float: left;   
+    
+}
+.opys{
+   
+    border-bottom: 3px solid #191970
+}
+.text{
+ 
+    border-bottom: 3px solid #191970
+}
+
+table{
+    border-collapse: collapse;
+    border: 5px solid #191970;
+}
+th, td{ 
+    border: 3px solid #191970;
+}
+
+.header {
+    font-family: monospace;
+    font-stretch: ultra-expanded;
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    background-color: #f5b507;
+}
+.anotation img{
+    width: 200px;
+    height: 300px;
+    float: left; 
+}
+.anotation{
+    font-family: monospace;
+    font-stretch: ultra-expanded;
+    font-size: 20px;
+    height: 320px;
+    width: 100%;
+    border-bottom: 5px solid #f5b507
+}
+.photo img{
+     width:320px;
+    height:240px;
+    margin: 20px 150px 20px 150px;
+    border: 5px solid  #f5b507;
+    padding: 1px;
+    background: #778899;  
+}
+.photo{
+     border-bottom: 5px solid #f5b507
+}
+.syuzhet{
+    font-family: monospace;
+    font-stretch: ultra-expanded;
+    font-size: 20px;
+    height: 320px;
+    width: 100%;
+    border-bottom: 5px solid #f5b507
+}
+
+.header2{
+    width: 100%;
+    height: 100px;
+    background-color:cadetblue;
+     position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.header2 p{
+    font-family:  cursive;
+    font-style: Arial;
+    font-size: 30px;
+    text-align: center;
+    color: darkslateblue;
+}
+.link p{
+    font-family: fantasy;
+    font-style: Arial;
+    color: darkblue; 
+    text-align: center;
+}
+.link a{
+    color: darkblue
+}
+.linkbook{
+ width: 455px;
+ height: 50px;
+ background-color: darkcyan;
+ position: absolute;
+    top: 100px;
+    right: 0;
+    left: 0;
+ border: 2px solid darkblue;
+}
+.linkhandbook{
+ width: 455px;
+ height: 50px;
+ background-color: darkcyan;
+ position: absolute;
+    top: 100px;
+    right: 0;
+    left: 455px;
+ border: 2px solid darkblue;
+
+}
+.linkfilm{
+ width: 453px;
+ height: 50px;
+ background-color: darkcyan;
+ position: absolute;
+    top: 100px;
+    right: 0;
+    left: 910px;
+    border: 2px solid darkblue;
+}
